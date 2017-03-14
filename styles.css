@@ -1,0 +1,15 @@
+head{
+ color: rgb(59,0,59);
+ font-size: 30px;
+}
+body {
+ background-color: lightgray;
+}
+h1{
+ color: Black;
+ text-align: center;
+}
+p{
+ font-family: fantasy;
+ font-size: 25px;
+}

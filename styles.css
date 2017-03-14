@@ -1,7 +1,9 @@
 html{
  background: linear-gradient(navy,lightblue);
 }
+}
 h1{
+ padding-top: 150px;
  color: Black;
  text-align: center;
 }
@@ -46,3 +48,12 @@ img{
  height: 300;
  width: 400;
 }
+#top{
+ background: red;
+ position: fixed;
+}
+p#top:hover{
+ background: red;
+ position: fixed;
+ margin-right: 300px;
+ opacity:.2;

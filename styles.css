@@ -1,11 +1,48 @@
-body {
- background-color: lightgray;
+html{
+ background: linear-gradient(navy,lightblue);
 }
 h1{
  color: Black;
  text-align: center;
 }
 p{
+ padding: 30px;
  font-family: fantasy;
  font-size: 25px;
+}
+ul#Languages-Attempted li{
+ background: lightgray;
+ font: cursive;
+ font-size: 30px;
+ color: rgb(59,0,59);
+ font-family: cursive;
+ margin-left: 25px;
+ margin-right: 1000px;
+ border-style:groove;
+}
+div.list{
+ position: relative;
+}
+div.picture{
+ position: absolute;
+}
+ul#Languages-Attempted #easy{
+ font-weight: bold;
+ color: darkgreen;
+ font-style: oblique;
+}
+p.exp{
+ color: rgb(20,20,20);
+}
+#pulsar{
+ border-style: solid;
+ border-color: navy;
+ margin:auto;
+ height: 100;
+ width: 300;
+}
+img{
+ margin-left: 400px;
+ height: 300;
+ width: 400;
 }

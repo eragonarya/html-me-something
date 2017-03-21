@@ -1,16 +1,13 @@
 html{
  background: linear-gradient(navy,lightblue);
 }
-}
 h1{
- padding-top: 150px;
+ padding-top: 250px;
  color: Black;
  text-align: center;
 }
-p{
- padding: 50px;
- font-family: fantasy;
- font-size: 25px;
+h2{
+ text-align: center;
 }
 ul#Languages-Attempted li{
  background: lightgray;
@@ -35,6 +32,13 @@ ul#Languages-Attempted #easy{
 }
 p.exp{
  color: rgb(20,20,20);
+ position: static;
+}
+p{
+ text-align: left;
+ padding: 50px;
+ font-family: fantasy;
+ font-size: 25px;
 }
 #pulsar{
  border-style: solid;
@@ -48,12 +52,16 @@ img{
  height: 300;
  width: 400;
 }
-#top{
+p.top{
+ z-index: 4;
+ padding: 50px;
  background: red;
- position: relative;
+ position: fixed;
+ opacity:.5;
 }
-p#top:hover{
+p.top:hover{
+ padding: 50px;
  background: red;
- position: relative;
+ position: fixed;
  margin-right: 300px;
- opacity:.2;
+ opacity:.1;
